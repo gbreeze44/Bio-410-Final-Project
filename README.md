@@ -1,9 +1,9 @@
 # Bio-410-Final-Project
 ## Background 
-The data consists of 6 smaples from the organism ____. This organism is a ____ which ____
+The data consists of 6 smaples from the organism Zaire ebolavirus. This organism is a enveloped, non-segmented, negative strand RNA virus which is the causative agent of Ebola Virus Disease. Ebola Virus is a frequently fatal human viral hemorrhagic fever
 
 ## Purpose 
-The purpose of this project was to create a phylogenetic tree from 6 samples of ___ in order to determine the evolutionary relationship between the samples.
+The purpose of this project was to create a phylogenetic tree from 6 samples of Zaire ebolavirus in order to determine the evolutionary relationship between the samples.
 
 
 ## Methouds
@@ -17,7 +17,7 @@ For each source of data, state which files/folders in the repository correspond 
 ## Results 
 
 Here is the phylogenetic tree: 
-(Insert the image, see the markdown cheat sheet for how to do that)
+<img width="1286" height="952" alt="image" src="https://github.com/user-attachments/assets/e5b70cbd-350e-42e7-a946-cb83d3d87e9b" />
 
 Explain 
 Which samples are closely related to each other
