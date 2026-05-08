@@ -7,13 +7,34 @@ The purpose of this project was to create a phylogenetic tree from 6 samples of 
 
 
 ## Methouds
-Include intergration about 
-Sequencing reads (NGS next-generation sequencing)
-Assembly using MEGAHIT (provide a link to MEGAHIT website)
-Alignment using R package DECIPHER
-Tree using ML method in R package DECIPHER
-For each source of data, state which files/folders in the repository correspond to those data (so for example, the assmebled reads are in __________ [some folder] and the raw sequencing reads are in ________ [some folder (this is the one named with your name)]
+Data Sources and Repository Structure 
 
+Sequencing Reads: The NGS sequencing experiment data (FASTQ files) for the six viral samples are located in the folder named Grace. 
+
+Assembled Reads: The output generated after the assembly process, specifically the final.contigs.fa files, are stored within the t1_out through t6_out folders. 
+
+Sequence Assembly 
+ 
+Sequence Assembly: The NGS reads were assembled into contigs using MEGAHIT, an ultra fast single cell genomic and metagenomic assembler. 
+Procedure: Each sample was processed using the command line to overlap short reads into longer contiguous sequences. 
+ 
+Link: MEGAHIT GitHub Repository 
+ 
+
+Data Compilation and Filtering 
+
+Compilation: The assembly results from all six samples were imported into R and compiled into a single DNAStringSet object using a custom loop. 
+Filtering: To ensure the quality of the analysis, only contigs longer than 5,000 bp were retained. This filters out small genomic fragments, focusing on the most substantial parts of the 18 kbp viral genome. 
+Multiple Sequence Alignment 
+Software: Alignment was performed using the DECIPHER R package. 
+Procedure: The filtered contigs were aligned using the AlignSeqs function to identify homologous regions and mutations across the samples. 
+ 
+
+Phylogenetic Reconstruction 
+
+Software: Phylogenetic analysis was conducted using the DECIPHER R package. 
+Method: A phylogenetic tree was reconstructed using the maximum likelihood method using the Treelinefunction. This method calculates the most likely evolutionary relationships based on the observed genetic variations in the alignment. 
+ 
 ## Results 
 
 Here is the phylogenetic tree: 
