@@ -1,6 +1,6 @@
 # Bio-410-Final-Project
 ## Background 
-The data consists of 6 smaples from the organism Zaire ebolavirus. This organism is a enveloped, non-segmented, negative strand RNA virus which is the causative agent of Ebola Virus Disease. Ebola Virus is a frequently fatal viral hemorrhagic fever in humans and other organims. 
+The data consists of 6 smaples from the organism Zaire ebolavirus isolate Ebola virus/H.sapiens-tc/COD/1995/Kikwit-9510621, complete genome. This organism is a enveloped, non-segmented, negative strand RNA virus which is the causative agent of Ebola Virus Disease. Ebola Virus is a frequently fatal viral hemorrhagic fever in humans and other organims. 
 
 ## Purpose 
 The purpose of this project was to create a phylogenetic tree from 6 samples of Zaire ebolavirus in order to determine the evolutionary relationship between the samples.
