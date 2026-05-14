@@ -6,7 +6,7 @@ The data consists of 6 smaples from the organism Zaire ebolavirus isolate Ebola 
 The purpose of this project was to create a phylogenetic tree from 6 samples of Zaire ebolavirus in order to determine the evolutionary relationship between the samples.
 
 
-## Methouds
+## Methods
 Data Sources and Repository Structure: Sequencing Reads, the NGS sequencing experiment data (FASTQ files) for the six viral samples are located in the folder named Grace. Assembled Reads, the output generated after the assembly process, specifically the final.contigs.fa files, are stored within the t1_out through t6_out folders. 
 
 Sequence Assembly: Sequence Assembly, the NGS reads were assembled into contigs using MEGAHIT, an ultra fast single cell genomic and metagenomic assembler. Procedure, each sample was processed using the command line to overlap short reads into longer contiguous sequences. 
