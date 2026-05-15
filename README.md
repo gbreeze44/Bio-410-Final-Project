@@ -11,7 +11,7 @@ Data Sources and Repository Structure: Sequencing Reads, the NGS sequencing expe
 
 Sequence Assembly: Sequence Assembly, the NGS reads were assembled into contigs using MEGAHIT, an ultra fast single cell genomic and metagenomic assembler. Procedure, each sample was processed using the command line to overlap short reads into longer contiguous sequences. 
  
-Link: MEGAHIT GitHub Repository 
+Link:(https://www.metagenomics.wiki/tools/assembly/megahit)
  
 
 Data Compilation and Filtering: Compilation, the assembly results from all six samples were imported into R and compiled into a single DNAStringSet object using a custom loop. Filtering, To ensure the quality of the analysis, only contigs longer than 5,000 bp were retained. This filters out small genomic fragments, focusing on the most substantial parts of the 18 kbp viral genome. 
